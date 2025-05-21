@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['muzzles']
+
+roboflow:
+  workspace: dheeraj-w7mek
+  project: cattle-muzzle-dataset-jngyp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dheeraj-w7mek/cattle-muzzle-dataset-jngyp/dataset/1
